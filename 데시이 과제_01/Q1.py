@@ -33,10 +33,11 @@ start_day = start_date[8:]
 end_month = end_date[5:7]
 end_day = end_date[8:]
 
-print(f"폭염 지속일수가 가장 길었던 연도:{year}년")
-print(f"해당 지점:{location}")
-print(f"폭염 시작일:{start_month}월 {start_day}일")
-print(f"폭염 종료일:{end_month}월 {end_day}일")
-print(f"지속일수:{max_duration}일")
+
+print("폭염 지속일수가 가장 길었던 연도:", year + "년")
+print("해당 지점:", location)
+print("폭염 시작일:", start_month + "월", start_day + "일")
+print("폭염 종료일:", end_month + "월", end_day + "일")
+print("지속일수:", str(max_duration) + "일")
 
 f.close()
