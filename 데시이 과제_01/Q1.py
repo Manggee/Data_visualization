@@ -3,8 +3,6 @@ import csv
 f = open("heat_wave.csv", 'r', encoding="cp949")
 data = csv.reader(f)
 
-# 아래부터 솜솜이가 작성해야 할 부분
-
 # 헤더 5줄 건너뛰기
 for i in range(5):
     next(data)
